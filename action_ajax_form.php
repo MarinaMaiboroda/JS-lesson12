@@ -7,10 +7,10 @@ if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["phone"]) &&
     	'name' => $_POST["name"],
 		'email' => $_POST["email"],
 		'phone' => $_POST["phone"],
-    	'comments' => $_POST["comment"]
+    	'comment' => $_POST["comment"]
     ); 
 
-	echo $result;
+	//echo $result;
     // Переводим массив в JSON
     echo json_encode($result); 
 }

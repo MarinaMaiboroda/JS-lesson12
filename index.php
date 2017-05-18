@@ -22,12 +22,16 @@
 		<form id="ajax_form" method="post">
 			<label for="user_name">User name</label>
 			<input id="user_name" name="name" minlenght="2" value="" />
+			<br/>
 			<label for="user_email">User email</label>
 			<input id="user_email" name="email" type="email" value="" /> 
+			<br/>
 			<label for="user_phone">User phone</label>
 			<input id="user_phone" name="phone" value="" />
+			<br/>
 			<label for="comment">Comments</label>
-			<textarea id="comment" value=""></textarea>
+			<textarea id="comment" name="comment" value=""></textarea>
+			<br/>
 			<button id="send_btn" type="submit">Send</button>
 		</form>
 		
